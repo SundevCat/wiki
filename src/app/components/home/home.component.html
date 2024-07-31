@@ -1,0 +1,8 @@
+<p>home works!</p>
+<ul *ngFor="let item of user">
+    <li>{{item.userId}}</li>
+    <li>{{item.userName}}</li>
+    <li>{{item.password}}</li>
+    <li>{{item.status}}</li>
+</ul>
+<button (click)="handdleLogout()"> logout</button>
